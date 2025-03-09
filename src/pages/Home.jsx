@@ -47,8 +47,8 @@ const Home = () => {
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       </div>
 
-      <div className={`pt-16 mt-8 ${menuOpen ? 'opacity-50' : ''}`}>
-        <section className="relative h-[50vh] sm:h-[80vh] rounded-lg shadow-lg overflow-hidden">
+      <div className={`pt-16 ${menuOpen ? 'opacity-50' : ''}`}>
+        <section className="relative h-[50vh] sm:h-[80vh]  shadow-lg overflow-hidden">
           <AnimatePresence mode="wait">
             <motion.div
               key={currentImage}

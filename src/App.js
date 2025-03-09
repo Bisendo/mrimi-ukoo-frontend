@@ -26,7 +26,6 @@ function App() {
     <Router>
       <div className="min-h-screen bg-gray-100"> {/* Background color for full screen */}
         {/* <Navbar /> */}
-        <div className="container mx-auto p-4">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
@@ -49,7 +48,6 @@ function App() {
             <Route path="/admin/services" element = {<AdminService/>}/>
           </Routes>
         </div>
-      </div>
     </Router>
   );
 }
